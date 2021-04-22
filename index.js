@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+// Defining the prompt function
 const {prompt} = inquirer;
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
@@ -34,7 +35,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'enter the licenses',
-        choices: ['MIT','Apache','GNU']
+        choices: ['MIT','apache-2.0','gpl-2.0']
         
     },
     {

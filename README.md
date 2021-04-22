@@ -1,17 +1,19 @@
 
-# readme generator
+# Title
+  
 ## Description
-  nice
+  
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+  apache-2.0
 * [Conttributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-    asd
+    
     
 ## Usage
 ![Image of Yaktocat]
@@ -19,11 +21,9 @@
 ## Credits
 [https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md#license]
 ## License
-[MIT License][https://choosealicense.com/licenses/mit/]
-[Apache License][https://choosealicense.com/licenses/apache-2.0/]
-[GNU General Public License v2.0][https://choosealicense.com/licenses/gpl-2.0/] 
+[License][https://choosealicense.com/licenses/apache-2.0]
 ## Contribution Guidlines
 ## Tests instructions
 ## Questions
    Contact me :
-   Github:[nazliozemrek]()
+   Github:(https://github.com/nazliozemrek)
