@@ -1,8 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-    
-}
+
+
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -38,7 +38,10 @@ function generateMarkdown(data) {
 [https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md#license]
 ## License
 [License][https://choosealicense.com/licenses/${data.license}]
-## Contribution Guidlines
+## Badges
+
+## Contribution Guidelines
+The [Contributor Covenant](https://www.contributor-covenant.org/).
 ## Tests instructions
 ## Questions
    Contact me :
@@ -47,3 +50,6 @@ function generateMarkdown(data) {
 };
 
 module.exports = generateMarkdown;
+
+
+

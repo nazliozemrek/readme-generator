@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 // Defining the prompt function
 const {prompt} = inquirer;
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const license =require('./license.js');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
@@ -41,7 +42,7 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        message:'If you would like to contact me'
+        message:'If you would like to contact me you can reach me from this link.'
     }
 
 ];
@@ -57,8 +58,12 @@ function writeToFile(fileName, data) {
 function init() {
     prompt(questions).then(answers => {
 
-    const response = generateMarkdown(answers);
+    const response = generateMarkdown(answers)
     writeToFile('README.md',response);
+    const result = license.renderlicenseBadge(answers.license);
+    const result1 = license.renderLicenseLink(answers.license);
+    const result2 = license.renderLicenseSection(answers.license);
+    console.log('Readme.md is being generated...')
     })
 }
 
