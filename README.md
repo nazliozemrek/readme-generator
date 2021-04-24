@@ -20,13 +20,12 @@
 ## Credits
 [https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md#license]
 ## License
-[License][https://choosealicense.com/licenses/apache-2.0]
+[License][https://choosealicense.com/licenses/MIT,apache-2.0,gpl-2.0]
 ## Badges
-undefined
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Contribution Guidelines
 The [Contributor Covenant](https://www.contributor-covenant.org/).
 ## Tests instructions
 ## Questions
    Contact me :
-   Github:(https://github.com/ )
+   Github:(https://github.com/)
