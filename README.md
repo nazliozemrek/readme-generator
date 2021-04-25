@@ -15,8 +15,7 @@
     touch .gitignore ; install inquirer ; npm install ; node index.js;
     
 ## Usage
-![Image of Yaktocat]
-(https://octodex.github.com/images/yaktocat.png)
+![SS of Readme](./images/ssReadme.png)
 ## Credits
 [https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md#license]
 ## License
