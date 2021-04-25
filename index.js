@@ -28,11 +28,6 @@ const questions = [
         message: 'please explain the usage of your app'
     },
     {
-        type: 'input',
-        name: 'credits',
-        message: 'enter the credits for your project'
-    },
-    {
         type: 'checkbox',
         name: 'license',
         message: 'enter the licenses',
