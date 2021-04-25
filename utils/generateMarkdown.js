@@ -20,16 +20,17 @@ const renderlicenseBadge = (data) => {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+link = '';
 function renderLicenseLink(data) {
   if(data[0] === 'MIT'){
-      badge = '(https://opensource.org/licenses/MIT)'
-      console.log(badge)
+      link = '(https://opensource.org/licenses/MIT)'
+      console.log(link)
   } else if (data[0] === 'apache-2.0' ) {
-      badge = '(https://opensource.org/licenses/Apache-2.0)'
-      console.log(badge)
+      link = '(https://opensource.org/licenses/Apache-2.0)'
+      console.log(link)
   } else if (data[0] === 'gpl-2.0') {
-      badge = '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
-      console.log(badge);
+      link = '(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+      console.log(link);
   } else {
       console.log('no link')
   }
@@ -46,7 +47,8 @@ function renderLicenseSection(data) {
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
-  renderlicenseBadge(data.license)
+  renderlicenseBadge(data.license);
+  renderLicenseLink(data.license);
   return `
 # Title
   ${data.title}
@@ -69,7 +71,7 @@ function generateMarkdown(data) {
 ## Credits
 [https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md#license]
 ## License
-[License][https://choosealicense.com/licenses/${data.license}]
+[${data.license}],${link}
 ## Badges
 ${badge}
 ## Contribution Guidelines
